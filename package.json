@@ -1,0 +1,26 @@
+{
+	"name": "@arcticnotes/keyframe-ppt",
+	"version": "0.0.1",
+	"description": "ArcticNotes Keyframe is a presentation tool. This project is a connector to Microsoft PowerPoint.",
+	"author": "Paul <paul@arcticnotes.com>",
+	"license": "MIT",
+	"homepage": "https://github.com/arcticnotes/keyframe-ppt#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/arcticnotes/keyframe-ppt.git"
+	},
+	"bugs": {
+		"url": "https://github.com/arcticnotes/keyframe-ppt/issues"
+	},
+	"type": "module",
+	"dependencies": {
+		"@arcticnotes/keyframe-core": "0.0.1",
+		"@arcticnotes/node-wsh": "0.0.11"
+	},
+	"exports": {
+		".": "./lib/index.js"
+	},
+	"files": [
+		"/lib/"
+	]
+}
